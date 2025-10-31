@@ -2,7 +2,7 @@
 Tugas tim kami _Topik Modeling_
 Proyek ini merupakan tugas kelompok mata kuliah Modeling and Simulation, dengan fokus pada penerapan Topic Modeling (LDA) untuk analisis kumpulan berita pemerintahan terkini.
 Penjelasan Proyek Topic Modeling Berita Pemerintah
-1. Latar Belakang
+**1. Latar Belakang**
 
 Dalam proyek ini, kami mencoba menerapkan Topic Modeling untuk menemukan pola topik dari beberapa berita viral terkait kebijakan pemerintah Indonesia. Dengan pendekatan ini, sistem dapat mengenali topik utama yang muncul tanpa perlu diberi label terlebih dahulu.
 
@@ -20,9 +20,6 @@ Bantuan sosial (Bansos)
 Dataset disimpan dalam bentuk tabel (DataFrame) dengan dua kolom utama:
 judul → judul berita
 isi → isi singkat dari berita tersebut
-CONTOH : | Judul                                         | Isi                                                                                           |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Pemerintah Naikkan Harga BBM Awal Bulan Depan | Pemerintah berencana menaikkan harga BBM awal bulan depan karena kenaikan harga minyak dunia. |
 
 **3. Preprocessing (Pembersihan Teks)**
 Sebelum pemodelan, teks dibersihkan agar komputer lebih mudah mengenali makna kata.
